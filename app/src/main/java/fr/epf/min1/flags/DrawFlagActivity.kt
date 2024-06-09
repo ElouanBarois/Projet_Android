@@ -35,17 +35,17 @@ class DrawFlagActivity : AppCompatActivity() {
 
         val buttonBrushSmall = findViewById<Button>(R.id.buttonBrushSmall)
         buttonBrushSmall.setOnClickListener {
-            drawingView.setBrushSize(10f)
+            drawingView.setBrushSize(50f)
         }
 
         val buttonBrushMedium = findViewById<Button>(R.id.buttonBrushMedium)
         buttonBrushMedium.setOnClickListener {
-            drawingView.setBrushSize(20f)
+            drawingView.setBrushSize(80f)
         }
 
         val buttonBrushLarge = findViewById<Button>(R.id.buttonBrushLarge)
         buttonBrushLarge.setOnClickListener {
-            drawingView.setBrushSize(30f)
+            drawingView.setBrushSize(120f)
         }
         val buttonGoBack = findViewById<Button>(R.id.buttonGoBack)
         buttonGoBack.setOnClickListener {

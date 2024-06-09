@@ -14,7 +14,7 @@ class DrawingView(context: Context, attrs: AttributeSet?) : View(context, attrs)
     private var drawColor = Color.WHITE
     private var canvas: Canvas? = null
     private var canvasBitmap: Bitmap? = null
-    private var brushSize: Float = 10f
+    private var brushSize: Float = 50f
 
     init {
         setupDrawing()
