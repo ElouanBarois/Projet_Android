@@ -65,9 +65,16 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.action_draw ->{
+                val intent = Intent(this, DrawFlagActivity::class.java)
+                startActivity(intent)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+
 
     private fun fetchAllCountries() {
         CoroutineScope(Dispatchers.IO).launch {

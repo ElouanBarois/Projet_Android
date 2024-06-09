@@ -29,6 +29,7 @@
             android:name=".CountryDetails">
         </activity>
         <activity android:name=".FavoritesActivity"/>
+        <activity android:name=".DrawFlagActivity"/>
         <receiver
             android:name=".UnlikedReceiver"
             android:exported="false">

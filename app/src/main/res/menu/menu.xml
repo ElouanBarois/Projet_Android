@@ -6,4 +6,10 @@
         android:icon="@drawable/ic_heart_liked"
         android:title="Favorites"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/action_draw"
+        android:icon="@drawable/ic_draw"
+        android:title="Draw"
+        app:showAsAction="always" />
+        />
 </menu>
