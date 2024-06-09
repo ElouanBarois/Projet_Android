@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewCapitalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitale:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewCountryName"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewCapitalLabel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPopulationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Population:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewCapital"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPopulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewPopulationLabel"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/textViewPopulation"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/country_flag" />
+
+    <ImageView
+        android:id="@+id/imageViewHeart"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/imageViewFlag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_heart_unliked"
+        android:contentDescription="@string/like_button" />
+
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/imageViewHeart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+
+</RelativeLayout>
