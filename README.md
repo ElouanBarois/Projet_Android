@@ -21,7 +21,3 @@ Quant on lance l'application on arrive (après le temps de chargement qui peut e
 Une fois revenus sur la page principale on peut voir 2 icones en haut à droite. 
 Le coeur permet de voir tous les pays likés. 
 Le pinceau sert à se diriger vers l'outil "Création d'un drapeau", où des outils de dessin permettent à l'utilisateur d'etre créatif. On peut choisir l'épaisseur du trait, la couleur, le bouton ERASE agit comme une gomme et le bouton CLEAR efface tout le drapeau. 
-
-## Problème d'affichage de drapeaux
-
-Lorsque j'affiche la liste de pays likés, le drapeau ne s'affiche pas. Toutes les autres informations sont transmises correctement mais le FlagUrl est null/empty. Je n'ai pas réussi à régler ce problème. 
