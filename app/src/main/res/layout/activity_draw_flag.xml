@@ -19,7 +19,32 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#000000">
+        android:background="#3A3A3A">
+        <Button
+            android:id="@+id/buttonColorOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:text="Orange"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/buttonColorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Black"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="100dp"/>
+        <Button
+            android:id="@+id/buttonColorYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFEB3B"
+            android:text="Yellow"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="200dp"/>
+
 
         <Button
             android:id="@+id/buttonColorRed"
@@ -27,7 +52,9 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@android:color/holo_red_dark"
             android:text="Red"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:layout_below="@id/buttonColorYellow"
+            />
 
         <Button
             android:id="@+id/buttonColorBlue"
@@ -36,7 +63,8 @@
             android:backgroundTint="@android:color/holo_blue_dark"
             android:text="Blue"
             android:textColor="@android:color/white"
-            android:layout_marginStart="200dp"/>
+            android:layout_marginStart="200dp"
+            android:layout_below="@id/buttonColorYellow"/>
 
         <Button
             android:id="@+id/buttonColorGreen"
@@ -45,13 +73,14 @@
             android:backgroundTint="@android:color/holo_green_dark"
             android:text="Green"
             android:textColor="@android:color/white"
-            android:layout_marginStart="100dp"/>
+            android:layout_marginStart="100dp"
+            android:layout_below="@id/buttonColorYellow"/>
         <Button
             android:id="@+id/buttonColorWhite"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="140dp"
             android:backgroundTint="@android:color/white"
-            android:text="E\nr\na\ns\ne\n"
+            android:text="E\nr\na\ns\ne\nr"
             android:textColor="@android:color/black"
             android:layout_marginStart="300dp"/>
 

@@ -2,12 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3A3A3A"
     android:padding="16dp">
 
     <TextView
         android:id="@+id/textViewCountryName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginBottom="8dp"
         android:layout_centerHorizontal="true"/>
@@ -16,7 +18,8 @@
         android:id="@+id/textViewCapitalLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Capitale:"
+        android:textColor="@android:color/white"
+        android:text="Capital:"
         android:textSize="18sp"
         android:layout_below="@id/textViewCountryName"
         android:layout_marginTop="16dp"/>
@@ -25,6 +28,7 @@
         android:id="@+id/textViewCapital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:layout_below="@id/textViewCapitalLabel"
         android:layout_marginStart="16dp"/>
@@ -33,6 +37,7 @@
         android:id="@+id/textViewPopulationLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:text="Population:"
         android:textSize="18sp"
         android:layout_below="@id/textViewCapital"
@@ -42,6 +47,7 @@
         android:id="@+id/textViewPopulation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:layout_below="@id/textViewPopulationLabel"
         android:layout_marginStart="16dp"/>

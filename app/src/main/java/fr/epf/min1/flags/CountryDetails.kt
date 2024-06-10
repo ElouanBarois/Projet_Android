@@ -27,7 +27,7 @@ class CountryDetails : AppCompatActivity() {
         val flagUrl = intent.getStringExtra("flagUrl") ?: ""
         println(flagUrl)
 
-        country = Country(Name(countryName, ""), Flags(flagUrl, ""), listOf(capital), population, "", "")
+        country = Country(Name(countryName, ""), Flags(flagUrl, flagUrl), listOf(capital), population, "", "")
 
         val textViewCountryName = findViewById<TextView>(R.id.textViewCountryName)
         textViewCountryName.text = countryName
@@ -52,7 +52,7 @@ class CountryDetails : AppCompatActivity() {
             isLiked = !isLiked
             updateHeartIcon(imageViewHeart)
             if (isLiked) {
-                saveLikedCountry(Country(Name(countryName, ""), Flags(flagUrl, ""), listOf(capital), population, "", ""))
+                saveLikedCountry(Country(Name(countryName, ""), Flags(flagUrl, flagUrl), listOf(capital), population, "", ""))
             } else {
                 removeLikedCountry(country.name.common)
                 sendUnlikedBroadcast(country.name.common)

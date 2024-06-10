@@ -32,6 +32,19 @@ class DrawFlagActivity : AppCompatActivity() {
         buttonColorWhite.setOnClickListener {
             drawingView.setColor("#FFFFFF")
         }
+        val buttonColorYellow = findViewById<Button>(R.id.buttonColorYellow)
+        buttonColorYellow.setOnClickListener {
+            drawingView.setColor("#FFEB3B")
+        }
+        val buttonColorBlack = findViewById<Button>(R.id.buttonColorBlack)
+        buttonColorBlack.setOnClickListener {
+            drawingView.setColor("#000000")
+        }
+        val buttonColorOrange = findViewById<Button>(R.id.buttonColorOrange)
+        buttonColorOrange.setOnClickListener {
+            drawingView.setColor("#FF9800")
+        }
+
 
         val buttonBrushSmall = findViewById<Button>(R.id.buttonBrushSmall)
         buttonBrushSmall.setOnClickListener {
